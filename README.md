@@ -48,3 +48,16 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+used components:
+npm i react-native-input-spinner
+npm i --save react-native-paper
+npm install --save react-native-screens react-native-safe-area-context
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+
+
+npm i --save expo-checkbox
+--npm i react-native-select-dropdown
+--npm i react-native-numeric-input
