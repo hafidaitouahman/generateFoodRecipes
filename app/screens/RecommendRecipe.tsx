@@ -4,7 +4,7 @@ import { View, TextInput, TouchableOpacity,Text, StyleSheet } from 'react-native
 import InputSpinner from "react-native-input-spinner";
 //import GenderRadioGroup from '@/app/GenderRadioGroup';
 import { RadioButton } from 'react-native-paper';
-
+import { SelectList } from 'react-native-dropdown-select-list'
 
 //import './App.css';
 function RecommendRecipe()  {
@@ -22,6 +22,9 @@ function RecommendRecipe()  {
     const [isFormValid, setIsFormValid] = useState(true); 
     const TITLE = 'Recommend a recipe';
     const [selectedGender, setSelectedGender] = useState('male');
+    const [selectedweightLossPlan, setSelectedweightLossPlan] = useState(null);
+    const [mealsPerDay, setMealsPerDay] = useState(1);
+    
     const state = {
         gender: [
             {
@@ -36,6 +39,12 @@ function RecommendRecipe()  {
             }
         ],
     };
+    const weightLossPlans = [ 
+        {key:'1', value:'Maintain weight', disabled:true},
+        {key:'2', value:'Mild weight loss'},
+        {key:'3', value:'Weight loss'},
+        {key:'4', value:'Extreme weight loss', disabled:true},
+    ]
     useEffect(() => { 
         navigation.setOptions({ headerShown: false });
         // Trigger form validation when name,  
@@ -136,12 +145,33 @@ function RecommendRecipe()  {
                     <Text>Female</Text>
                 </View>
             </RadioButton.Group></label>
+            Choose your weight loss plan:
+            <View>
+                <SelectList 
+                    setSelected={(val) => setSelectedweightLossPlan(val)} 
+                    data={weightLossPlans} 
+                    save="value"
+                />
+            </View>
+            <View>
+            <label> Meals per day
+            <InputSpinner
+                style={styles.inputSpinner} 
+                max={5}
+                min={1}
+                step={1}
+                colorMax={"#f04048"}
+                colorMin={"#40c5f4"}
+                value={mealsPerDay}
+                onChange={setMealsPerDay}
+            /></label>
+                </View>
             <TouchableOpacity 
                 style={[styles.button, { opacity: isFormValid ? 1 : 0.5 }]} 
                 disabled={!isFormValid} 
                 onPress={handleSubmit} 
             > 
-            <Text style={styles.buttonText}>Submit</Text> 
+            <Text style={styles.buttonText}>Generate</Text> 
             </TouchableOpacity> 
               
            

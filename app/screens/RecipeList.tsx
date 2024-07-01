@@ -10,11 +10,12 @@ const RecipeList  = (props: { navigation: string; }) => {
     try {
       const response = await fetch('http://localhost:3000/recipes');
       const data = await response.json();
-	  setRecipes(data)
+      const result = JSON.parse(JSON.stringify(data));
+	  setRecipes(JSON.parse(result.data))
 	  //const [recipes, setRecipes] = useState([]);
-	  console.log("data ---------------------"); 
-      console.log({ data });
-	  console.log("data ---------------------");
+	  console.log("result ---------------------"); 
+      console.log(JSON.parse(result.data));
+	  console.log("result ---------------------");
     }
     catch (e) {
 		console.log("error: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")

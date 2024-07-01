@@ -56,7 +56,10 @@ npm i --save react-native-paper
 npm install --save react-native-screens react-native-safe-area-context
 npm install @react-navigation/native
 npm install @react-navigation/native-stack
+npm i react-native-dropdown-select-list
 
+--npm install react-native-picker-select
+--npm install react-native-select-dropdown
 
 npm i --save expo-checkbox
 --npm i react-native-select-dropdown

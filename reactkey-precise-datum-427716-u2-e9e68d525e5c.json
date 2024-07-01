@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "precise-datum-427716-u2",
+  "private_key_id": "e9e68d525e5c31693a28e51804e9348be4f48eec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZuQIjpjwH0k7Z\nSav3G1PG1N61ieTldtz+SnCiGFrlL8waQIVYFHaZNYNSgyqbKxEK0OA9TBuv4BYb\nf2503/Ztlac/HqhukqUMqZBiyQjNlifkKF4MrkdWvPXuhJmmpNl5iuSss16Uh8Qp\n/z2ZbtdBXHbxhG2msJfuVgmw54p4n44vqnLkywf6Gv49QxtUApUuDDBL8Eiz4o25\nCNeLAtVieCVKMAW0gHUtQZiWdYjWExT6wGq9fUwVuYMpnjsLg0Y8OcW0rawJZDhq\nBDiE7gcXeKaYzwowKjNlQK1z/Z+Yb5IZrMZD6qOOMdT9eflwBAy0s7wY0clbjBt9\nmmthxEV3AgMBAAECggEACeAYlvHCuUwY8Kwk+6rzctcgi7VuFD/+9OqYqN5X74G3\nTUPt7tMGyhsH3z89BUq/yPDOd8x/v2URO6NDde1B3TIziTf+LDD3zlcGlvFHAyQz\nbQFG7f/qeaaA6GLlVHSxVJAwBre5q4NsKpRKmmIEeERJNNoGRNBJVxfzjcc2Anom\nZbV61rcCJs83d2kx12i/xD1tQbOMCiScfm3sVfYfvS4bHdYnCIt+LJThAoYJ4qr3\nVKdUfBVfGrTRZ0gx1HBcKRgmto5IRGZ1SRsr7su9A259spw8th6qTAjf4dhe70/n\nCTFC9EDg8h/yuFt11gF2ygP+2qwmhhX9OjRpn/qGQQKBgQD20alG7kBtqcGTV5Kp\nTZ7UJEQ9iEBgX5IpLldijR4VoKi7SDcL9ry2Z//z8wp4vB1mGIPI41xhfzNUW9Wj\nI0Tv4GMLm6UBIJlw693PdCSM7Ah++nKTUAJ0V974SaL4ZNSzylfNzhVjddjpdB1B\nYz494b8mQCNeUD6vneVXQ3eBlwKBgQDh0kbqh5SarI1Oj7gWnfG7wFsVnV0MTW/x\noxkdKM+A1DOY/+q+FhQM5GAlxCyOabPIyXJBe5TRS+Y7Q/Cyyns5YiIUykB0QCQu\nel+BKitGMLeFETL2GHrMg0hB/uBQHCjvrkMYvs7lEOpso3DjiOW1CGuCynQzkAVL\neeAwCggXIQKBgQCTZNdjDWqaUpLQC68AveLIqzO5T0Gqi8g8IXl71+wMXFoHJXQC\nCAHgKDE4nH43ZZdk3eTtNaF4c77SdNkayDgly+k6CGO8TZx0S9a1SZV+NoJIWgXM\nJS6iDcuQmGDjV0uSZpaSx6wMLlcv6vCBmOOVjtdY31p/uwoEVBWeTCL01wKBgQC2\ntk6OwDhqlaaXpA1Mr2rBgLex22tH4vfqSQ6u2zBZilhdOOOT/YUnkTiCFiH+8GN4\n2BVMClO0rHaSCTydTNs66L2umJ5h8OvVd0oC1j3BQvWaAvp6x//DrY0vaKvR5Zbx\npsu/H9OC35btY6iZUVCakz95yZkPhz3hfbD47YTyQQKBgESPxhvE/Xmd26LJQImy\n3xmOOWsQ1ZGNMwzVTDj/OcJYubvB/6g5j0GwsBS1gT5vS91x2fjI/yb/c8ntDEsq\n5NfrcS/nAPIfjOPRhw7R77bbGb165R7i1aJwwb+H0o02CWzN45mgshvci0vsWQW/\n5LlIEEkSxfilhM/ER3VqgtnG\n-----END PRIVATE KEY-----\n",
+  "client_email": "reactnativeapp@precise-datum-427716-u2.iam.gserviceaccount.com",
+  "client_id": "116604959962176157702",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reactnativeapp%40precise-datum-427716-u2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
